@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+#titleBox {
+  background-color: #081829;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+#Options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.Option{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    margin: 35px;
+}
+.Option:hover{
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.7);
+    transition: 0.25s;
+    /* border: 3px solid black; */
+}
+#ScoreBoard{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.points{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Players{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+#ResultBoard,#Turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#Turn{
+    margin-top: 60px;
+}
+#turnAndresult,#turn{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #081829;
+    color: white;
+    border-radius: 5px;
+}
+#turn{
+    border: 1px dashed red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b2c5d8;
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
